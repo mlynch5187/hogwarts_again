@@ -5,10 +5,8 @@ class ProfessorController < ApplicationController
   end
 
   def show
-    # @professors = Professor.find(params[:id])
-    # require "pry"; binding.pry
-    # @students = Student.find(params[:student_id])
-    # @students = Student.where(id: "11")
+    teacher = Professor.find(params[:id])
+    @students = Student.where(professor: teacher)
   end
 
 end
