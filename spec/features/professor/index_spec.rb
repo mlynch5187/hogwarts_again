@@ -16,12 +16,3 @@ RSpec.describe "test professor index page", type: :feature do
     expect(page).to have_content(meg_stang.name)
   end
 end
-
-# User Story 1 of 4
-# As a visitor,
-# When I visit '/professors',
-# I see a list of professors with the following information:
-# -Name
-# -Age
-# -Specialty
-# (e.g. "Name: Minerva McGonagall, Age: 204, Specialty: Transfiguration")
