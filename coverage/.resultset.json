@@ -206,12 +206,35 @@
         "lines": [
           1,
           null,
+          null,
+          1,
+          null,
+          null,
+          null,
           null
         ]
       },
       "/Users/michaelalexlynch/turing/2module/classwork/hogwarts_again/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/michaelalexlynch/turing/2module/classwork/hogwarts_again/spec/models/professor_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
           null
         ]
       },
@@ -282,8 +305,26 @@
           1,
           null
         ]
+      },
+      "/Users/michaelalexlynch/turing/2module/classwork/hogwarts_again/app/controllers/professor_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/michaelalexlynch/turing/2module/classwork/hogwarts_again/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1585322407
+    "timestamp": 1585323488
   }
 }
