@@ -1,13 +1,7 @@
-<h1>All Professors</h1>
+<h1> All Professors </h1>
 
-<% @professors.each do |professor| %>
-    <section id="professors-<%=professor.id%>">
-      <p><%= "#{professor.name}" %></p>
-      <p><%= "#{professor.age}" %></p>
-      <p><%= "#{professor.specialty}" %></p>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-      </section>
-    <% end %>
+  <% @professors.each do |professor| %>
+    <h4>Professor Name: <%= professor.name %></h4>
+    <h4>Professor Age: <%= professor.age %></h4>
+    <h4>Professor Specialty: <%= professor.specialty %></h4>
+  <% end %>
