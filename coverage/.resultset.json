@@ -209,6 +209,8 @@
           null,
           1,
           1,
+          null,
+          1,
           null
         ]
       },
@@ -285,6 +287,10 @@
           null,
           1,
           1,
+          null,
+          1,
+          6,
+          null,
           null
         ]
       },
@@ -397,20 +403,33 @@
           1,
           1,
           null,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
           null,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
           null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -435,8 +454,18 @@
           1,
           null
         ]
+      },
+      "/Users/michaelalexlynch/turing/2module/classwork/hogwarts_again/app/controllers/student_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1585760673
+    "timestamp": 1585761720
   }
 }

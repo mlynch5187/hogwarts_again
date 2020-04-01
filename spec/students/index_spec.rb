@@ -18,4 +18,17 @@ RSpec.describe "test_student_index_page", type: :feature do
     ProfessorStudent.create(student_id: @malfoy.id, professor_id: @lupin.id)
     ProfessorStudent.create(student_id: @longbottom.id, professor_id: @snape.id)
   end
+
+  it "shows a list of courses and professors a student has" do
+
+    visit "/students"
+
+    expect(page).to have_content("#{@harry.name}")
+    expect(page).to have_content("#{@malfoy.name}")
+    expect(page).to have_content("#{@longbottom.name}")
+
+    expect(page).to have_content("#{@harry.professor_count}")
+    expect(page).to have_content("#{@malfoy.professor_count}")
+    expect(page).to have_content("#{@longbottom.professor_count}")
+  end
 end
