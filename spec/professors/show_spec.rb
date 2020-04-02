@@ -31,17 +31,11 @@ RSpec.describe "test professor show page", type: :feature do
     expect(page).to have_content("#{@harry.name}")
     expect(page).to have_content("#{@malfoy.name}")
   end
+
+  it "shows average student age for professors" do
+
+    visit "professors/#{@hagarid.id}"
+
+    expect(page).to have_content("Average Student Age: #{@hagarid.average_age}")
+  end
 end
-
-
-
-
-
-
-# User Story 2 of 4
-# As a visitor,
-# When I visit '/professors/:id'
-# I see a list of the names of the students the professors have.
-# (e.g. "Neville Longbottom"
-#       "Hermione Granger"
-#       "Luna Lovegood")
